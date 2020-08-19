@@ -14,8 +14,8 @@ type_of_email = ["Host Trainer Mid-Point", "Host Trainer Final", "Trainee/Intern
 
 def read_email(number):
     # account credentials
-    username = "darlinghuynh2912@gmail.com"
-    password = "@Ltb1999"
+    username = "abc@gmail.com"
+    password = "somepassword"
 
     # create an IMAP4 class with SSL
     imap = imaplib.IMAP4_SSL("imap.gmail.com")
@@ -140,6 +140,6 @@ def main():
             print("\tNOT UPDATED")
         else:
             print("\tUpdated")
-            
+
 if __name__ == "__main__":
   main()
